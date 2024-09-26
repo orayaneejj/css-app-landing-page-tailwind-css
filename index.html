@@ -19,15 +19,20 @@
   
       </style>      
   </head>
-  <body class="h-[1946px] w-[1440px] bg-[#f6f6fb]">
+  <body class="h-[1946px]  bg-[#f6f6fb] max-[375px]:h-[2330px] max-[375px]:flex max-[375px]:flex-col max-[375px]:justify-start max-[375px]:items-center max-[375px]:w-full">
     <!-- Cherry -->
 
-      <div class="nav flex w-[1440px] h-[128px] bg-[#F6F6FB] p-[24px] justify-center items-center relative">
-      <nav class="navbar drop-shadow-md flex justify-between items-center rounded-[99px] px-[80px] py-[12px] w-[1392px] h-[80px] bg-white" >
-        <div>
+      <div class="nav flex h-[128px] bg-[#F6F6FB] p-[24px] justify-center items-center relative max-[375px]:h-[80px] max-[375px]:gap-[10px] max-[375px]:w-full">
+      <nav class="navbar drop-shadow-md flex justify-between items-center rounded-[99px] px-[80px] py-[12px] w-[1392px] h-[80px] bg-white max-[375px]:w-full max-[375px]:h-[48px] max-[375px]:px-[24px]">
+        <div class="max-[375px]:flex max-[375px]:justify-between max-[375px]:w-screen max-[375px]:items-center">
           <img class="w-[91.67px] h-[40px]" src="logo.png" alt="logo" />
+          <a href="#">
+            <svg width="24" height="24" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.75C0 0.551088 0.0790175 0.360322 0.21967 0.21967C0.360322 0.0790175 0.551088 0 0.75 0H17.25C17.4489 0 17.6397 0.0790175 17.7803 0.21967C17.921 0.360322 18 0.551088 18 0.75C18 0.948912 17.921 1.13968 17.7803 1.28033C17.6397 1.42098 17.4489 1.5 17.25 1.5H0.75C0.551088 1.5 0.360322 1.42098 0.21967 1.28033C0.0790175 1.13968 0 0.948912 0 0.75ZM0 6C0 5.80109 0.0790175 5.61032 0.21967 5.46967C0.360322 5.32902 0.551088 5.25 0.75 5.25H17.25C17.4489 5.25 17.6397 5.32902 17.7803 5.46967C17.921 5.61032 18 5.80109 18 6C18 6.19891 17.921 6.38968 17.7803 6.53033C17.6397 6.67098 17.4489 6.75 17.25 6.75H0.75C0.551088 6.75 0.360322 6.67098 0.21967 6.53033C0.0790175 6.38968 0 6.19891 0 6ZM0 11.25C0 11.0511 0.0790175 10.8603 0.21967 10.7197C0.360322 10.579 0.551088 10.5 0.75 10.5H17.25C17.4489 10.5 17.6397 10.579 17.7803 10.7197C17.921 10.8603 18 11.0511 18 11.25C18 11.4489 17.921 11.6397 17.7803 11.7803C17.6397 11.921 17.4489 12 17.25 12H0.75C0.551088 12 0.360322 11.921 0.21967 11.7803C0.0790175 11.6397 0 11.4489 0 11.25Z" fill="#9393AC"/>
+              </svg> 
+          </a>    
         </div>
-        <div class="nav-wrapper flex items-center justify-end gap-10 w-[420px] h-[56px] font-medium">
+        <div class="nav-wrapper flex items-center justify-end gap-10 w-[420px] h-[56px] font-medium max-[375px]:hidden">
           <a class="hover:underline hover:text-[#5E44FF]" href="https://www.techupth.com/">Home</a>
           <a class="hover:underline hover:text-[#5E44FF]" href="https://www.techupth.com/">Feature</a>
           <a class="hover:underline hover:text-[#5E44FF]" href="https://www.techupth.com/">Pricing</a>
@@ -35,15 +40,15 @@
         </div>
       </nav>
       </div>
-      <section class="hero-section w-[1440px] h-[968px] bg-[#F6F6FB] flex flex-col justify-center pb-[140px] pt-[120px] pl-[120px] pr-[120px] gap-[120px]">
-        <section class="w-[1200px] h-[316px] bg-[#F6F6FB] flex flex-col gap-[40px] justify-center items-center">
+      <section class="hero-section h-[968px] bg-[#F6F6FB] flex flex-col justify-center pb-[140px] pt-[120px] max-[375px]:items-center gap-[120px] max-[375px]:h-[1412px] max-[375px]:gap-[80px] max-[375px]:p-[0px] max-[375px]:flex max-[375px]:flex-col max-[375px]:justify-center">
+        <section class="h-[316px] bg-[#F6F6FB] flex flex-col gap-[40px] justify-center items-center max-[375px]:h-[392px] max-[375px]:flex max-[375px]:items-center max-[375px]:justify-center ">
           <div class="tag w-[236px] h-[40px] bg-[#563AFF1A] rounded-full flex justify-center items-center">
             <p class="text-[#5E44FF] text-base">🌈 Acme Productivity App</p>
           </div>
-          <div class="heading">
-            <div class="flex flex-col gap-[24px] text-center">
-              <h1 class="leading-[84px] font-extrabold text-[80px]">Boost Your <span class="text-[#563AFF]">Product</span>ivity</h1>
-              <h2 class="leading-8 text-[#1A1A2C] text-2xl font-semibold">Streamline your workflow with our all-in-one productivity app.</h2>
+          <div class="heading max-[375px]:h-[216px] max-[375px]:flex max-[375px]:flex-col max-[375px]:justify-start max-[375px]:items-center">
+            <div class="flex flex-col text-center max-[375px]:gap-[24px]">
+              <h1 class="leading-[84px] font-extrabold text-[80px] max-[375px]:text-[44px] max-[375px]:h-[96px] max-[375px]:leading-[48px]">Boost Your <span class="text-[#563AFF]">Product</span>ivity</h1>
+              <h2 class="leading-8 text-[#1A1A2C] text-2xl font-semibold max-[375px]:text-[24px]">Streamline your workflow with our all-in-one productivity app.</h2>
             </div>
           </div>
 
@@ -56,8 +61,8 @@
     
         <!-- Ter -->
 
-  <div class="feature flex gap-[20px] w-[1201px] h-[272px]">
-    <div class="feature-streamline gap-[40px] w-[387px] h-[272px] bg-[#D7E5F6] rounded-[24px] p-[28px] flex flex-col">
+  <div class="feature flex gap-[20px] h-[272px] max-[375px]:h-[820px] max-[375px]:flex max-[375px]:flex-col max-[375px]:justify-center max-[375px]:items-center">
+    <div class="feature-streamline gap-[40px] w-[387px] h-[272px] bg-[#D7E5F6] rounded-[24px] p-[28px] flex flex-col max-[375px]:w-[343px] max-[375px]:h-[244px] max-[375px]:p-[24px] max-[375px]:gap-[24px]">
       <div class="steamline-icon w-[60px] h-[60px] bg-[#FFFFFF99] rounded-[16px] flex justify-center items-center"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M10.42 8.112C14.26 3.17733 20.26 0 27 0C27.2652 0 27.5196 0.105357 27.7071 0.292893C27.8946 0.48043 28 0.734784 28 1C28 7.74133 24.8227 13.74 19.888 17.5813C20.0932 18.867 20.0171 20.1819 19.6648 21.4352C19.3125 22.6886 18.6925 23.8506 17.8475 24.8411C17.0026 25.8316 15.9528 26.6269 14.7706 27.1723C13.5884 27.7177 12.3019 28.0001 11 28C10.7348 28 10.4804 27.8946 10.2929 27.7071C10.1054 27.5196 10 27.2652 10 27V21.492C8.7039 20.4685 7.53234 19.2965 6.50933 18H1C0.734784 18 0.48043 17.8946 0.292893 17.7071C0.105357 17.5196 2.94643e-08 17.2652 2.94643e-08 17C-0.000105323 15.6979 0.282313 14.4114 0.827765 13.2291C1.37322 12.0467 2.16871 10.9969 3.15935 10.1519C4.14998 9.30689 5.31217 8.68692 6.5657 8.33474C7.81923 7.98256 9.13425 7.90656 10.42 8.112ZM18 7C17.2044 7 16.4413 7.31607 15.8787 7.87868C15.3161 8.44129 15 9.20435 15 10C15 10.7956 15.3161 11.5587 15.8787 12.1213C16.4413 12.6839 17.2044 13 18 13C18.7957 13 19.5587 12.6839 20.1213 12.1213C20.6839 11.5587 21 10.7956 21 10C21 9.20435 20.6839 8.44129 20.1213 7.87868C19.5587 7.31607 18.7957 7 18 7Z" fill="#5E44FF"/>
         </svg>
@@ -67,7 +72,7 @@
           <p class="streamline-detail font-light">Automate repetitive tasks and focus on high-impact work with our powerful productivity features.</p>
         </div>
     </div>
-  <div class="feature-blazing w-[387px] bg-[#D8E0FC] rounded-[24px] p-[28px] gap-[40px] flex flex-col">
+  <div class="feature-blazing w-[387px] bg-[#D8E0FC] rounded-[24px] p-[28px] gap-[40px] flex flex-col max-[375px]:w-[343px] max-[375px]:h-[244px] max-[375px]:p-[24px] max-[375px]:gap-[24px]">
       <div class="blazing-icon w-[60px] h-[60px] bg-[#FFFFFF99] rounded-[16px] flex justify-center items-center"><svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 0C6.32 0 0.5 5.82 0.5 13C0.5 20.18 6.32 26 13.5 26C20.68 26 26.5 20.18 26.5 13C26.5 5.82 20.68 0 13.5 0ZM10 8C9.28 8 8.896 8.55867 8.752 8.84533C8.58093 9.20593 8.49473 9.60092 8.5 10C8.5 10.3973 8.57867 10.8067 8.752 11.1547C8.896 11.4413 9.27867 12 10 12C10.72 12 11.104 11.4413 11.248 11.1547C11.4213 10.808 11.5 10.3973 11.5 10C11.5 9.60267 11.4213 9.19333 11.248 8.84533C11.104 8.55867 10.7213 8 10 8ZM15.752 8.84533C15.896 8.55867 16.2787 8 17 8C17.72 8 18.104 8.55867 18.248 8.84533C18.4213 9.192 18.5 9.60267 18.5 10C18.5 10.3973 18.4213 10.8067 18.248 11.1547C18.104 11.4413 17.7213 12 17 12C16.28 12 15.896 11.4413 15.752 11.1547C15.5809 10.7941 15.4947 10.3991 15.5 10C15.5 9.60267 15.5787 9.19333 15.752 8.84533ZM18.4493 17.9493C18.5476 17.8578 18.6264 17.7474 18.681 17.6247C18.7357 17.5021 18.7651 17.3696 18.7675 17.2354C18.7698 17.1011 18.7451 16.9677 18.6948 16.8432C18.6445 16.7187 18.5697 16.6056 18.4747 16.5106C18.3798 16.4157 18.2666 16.3408 18.1421 16.2905C18.0176 16.2402 17.8842 16.2155 17.75 16.2179C17.6157 16.2202 17.4833 16.2496 17.3606 16.3043C17.238 16.3589 17.1276 16.4378 17.036 16.536C16.5717 17.0004 16.0204 17.3688 15.4137 17.6202C14.807 17.8716 14.1567 18.0009 13.5 18.0009C12.8433 18.0009 12.193 17.8716 11.5863 17.6202C10.9796 17.3688 10.4283 17.0004 9.964 16.536C9.77443 16.3594 9.52371 16.2632 9.26464 16.2678C9.00557 16.2723 8.75839 16.3773 8.57517 16.5605C8.39195 16.7437 8.287 16.9909 8.28243 17.25C8.27786 17.509 8.37403 17.7598 8.55067 17.9493C9.86339 19.2618 11.6437 19.9992 13.5 19.9992C15.3563 19.9992 17.1366 19.2618 18.4493 17.9493Z" fill="#5E44FF"/>
       </svg>
@@ -78,7 +83,7 @@
       </div>
   </div>
   
-  <div class="feature-intuitive w-[387px] bg-[#E8DCF6] rounded-[24px] p-[28px] gap-[40px] flex flex-col">
+  <div class="feature-intuitive w-[387px] bg-[#E8DCF6] rounded-[24px] p-[28px] gap-[40px] flex flex-col max-[375px]:w-[343px] max-[375px]:h-[244px] max-[375px]:p-[24px] max-[375px]:gap-[24px]">
     <div class="intuitive-icon w-[60px] h-[60px] bg-[#FFFFFF99] rounded-[16px] flex justify-center items-center"><svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 0C1.23478 0 0.98043 0.105357 0.792893 0.292893C0.605357 0.480429 0.5 0.734783 0.5 1C0.5 1.26522 0.605357 1.51957 0.792893 1.70711C0.98043 1.89464 1.23478 2 1.5 2H2.5V16C2.5 17.0609 2.92143 18.0783 3.67157 18.8284C4.42172 19.5786 5.43913 20 6.5 20H8.11333L6.55067 24.684C6.46686 24.9358 6.4865 25.2105 6.60527 25.4478C6.72405 25.6851 6.93222 25.8655 7.184 25.9493C7.43578 26.0331 7.71054 26.0135 7.94783 25.8947C8.18513 25.7759 8.36553 25.5678 8.44933 25.316L8.888 24H20.112L20.552 25.316C20.643 25.5581 20.8243 25.7555 21.0578 25.8668C21.2913 25.978 21.5589 25.9945 21.8042 25.9127C22.0496 25.8309 22.2537 25.6572 22.3738 25.4281C22.4938 25.199 22.5204 24.9323 22.448 24.684L20.888 20H22.5C23.5609 20 24.5783 19.5786 25.3284 18.8284C26.0786 18.0783 26.5 17.0609 26.5 16V2H27.5C27.7652 2 28.0196 1.89464 28.2071 1.70711C28.3946 1.51957 28.5 1.26522 28.5 1C28.5 0.734783 28.3946 0.480429 28.2071 0.292893C28.0196 0.105357 27.7652 0 27.5 0H1.5ZM10.22 20H18.78L19.4467 22H9.55333L10.22 20ZM21 8.00667C21.1146 7.94148 21.2153 7.85427 21.2961 7.75004C21.3769 7.64581 21.4363 7.52663 21.4708 7.39936C21.5054 7.27209 21.5144 7.13924 21.4974 7.00845C21.4804 6.87768 21.4377 6.75155 21.3718 6.63734C21.3058 6.52313 21.2179 6.42309 21.1132 6.34298C21.0084 6.26287 20.8888 6.20428 20.7613 6.17057C20.6338 6.13686 20.5009 6.1287 20.3703 6.14657C20.2396 6.16443 20.1138 6.20797 20 6.27467C18.1821 7.32697 16.5738 8.7056 15.256 10.3413L13.2067 8.29333C13.0192 8.10607 12.765 8.00088 12.5 8.00088C12.235 8.00088 11.9808 8.10607 11.7933 8.29333L7.79333 12.2933C7.69508 12.3849 7.61628 12.4953 7.56163 12.6179C7.50697 12.7406 7.47758 12.873 7.47521 13.0073C7.47284 13.1416 7.49754 13.2749 7.54784 13.3995C7.59813 13.524 7.67299 13.6371 7.76795 13.732C7.86291 13.827 7.97602 13.9019 8.10054 13.9522C8.22505 14.0025 8.35843 14.0272 8.4927 14.0248C8.62697 14.0224 8.75939 13.993 8.88205 13.9384C9.00472 13.8837 9.11512 13.8049 9.20667 13.7067L12.5 10.4133L14.656 12.5707C14.7594 12.6741 14.8843 12.7536 15.0218 12.8035C15.1593 12.8534 15.3061 12.8726 15.4518 12.8596C15.5975 12.8467 15.7386 12.8019 15.8651 12.7285C15.9916 12.655 16.1005 12.5547 16.184 12.4347C17.446 10.6241 19.09 9.11253 21 8.00667Z" fill="#5E44FF"/>
       </svg>
